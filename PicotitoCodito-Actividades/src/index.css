@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;  /* ⬅️ centra horizontal */
+  align-items: center;      /* ⬅️ centra vertical */
+  min-height: 100vh;
+  background: #242424;      /* tu color base */
+}
+
+#root {
+  width: 100%;
+  max-width: 900px;         /* ⬅️ límite para que no quede gigante */
+  margin: 0 auto;
+}
